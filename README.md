@@ -10,4 +10,14 @@ React Native generate a Native app from JavaScript unlike other Hybrid App devel
 - Easy to Submit app on App Stores.
 
 ## Installing React Native
+- Install node and watchman with Homebrew
+`
+brew install node
+brew install watchman
+`
+
+- And then install React Native CLI with npm
+`And then install React Native CLI with npm`
+
+
 `npm i -g create-react-native-app`
