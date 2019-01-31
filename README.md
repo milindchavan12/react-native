@@ -8,3 +8,6 @@ React Native generate a Native app from JavaScript unlike other Hybrid App devel
 - Shared codebase for iOS and Android.
 - Solid Community for plugin and Services.
 - Easy to Submit app on App Stores.
+
+## Installing React Native
+`npm i -g create-react-native-app`
