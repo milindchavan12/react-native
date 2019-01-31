@@ -20,5 +20,11 @@ React Native generate a Native app from JavaScript unlike other Hybrid App devel
 
 `npm install -g react-native-cli`
 
+- Install React Native App
 
 `npm i -g create-react-native-app`
+
+- Then Create react-native app
+
+`create-react-native-app globo`
+
