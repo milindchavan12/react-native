@@ -28,3 +28,5 @@ React Native generate a Native app from JavaScript unlike other Hybrid App devel
 
 `create-react-native-app globo`
 
+### Install React Native DevTools
+`npm install -g react-devtools`
