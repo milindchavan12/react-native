@@ -30,3 +30,10 @@ React Native generate a Native app from JavaScript unlike other Hybrid App devel
 
 ### Install React Native DevTools
 `npm install -g react-devtools`
+
+## UI Components
+### View
+View component is basic container that holds other components, and can be child component other component.
+
+### Props
+Most components can be customized when they are created, with different parameters. These creation parameters are called props.
