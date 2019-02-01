@@ -37,3 +37,6 @@ View component is basic container that holds other components, and can be child 
 
 ### Props
 Most components can be customized when they are created, with different parameters. These creation parameters are called props.
+
+### State
+There are two types of data that control a component: props and state. props are set by the parent and they are fixed throughout the lifetime of a component. For data that is going to change, we have to use state.
