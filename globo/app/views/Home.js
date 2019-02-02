@@ -1,16 +1,30 @@
 import React from "react";
 import { StyleSheet, Text, View } from 'react-native';
 import { Header } from './../sections/Header.js';
+import { Hero } from "./../sections/Hero.js";
+import { Menu } from "./../sections/Menu.js";
+import { StackNavigator } from 'react-navigation';
 
 export class Home extends React.Component {
-  render() {
+   static navigationOptions = {
+     header: null
+   };
+
+  render(){
+    const { navigate } = this.props.navigation;
+
     return (
-      <View>
+      <View style={styles.container}>
         <Header message="Press to login"></Header>
-        <Text>This is home components Line 1</Text>
-        <Text>This is home components Line 2</Text>
-        <Text>This is home components Line 3</Text>
+        <Hero></Hero>
+        <Menu navigate = {navigate}></Menu>
       </View>
     );
   }
 }
+
+let styles = StyleSheet.create({
+    container: {
+        flex:1
+    }
+});
