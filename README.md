@@ -48,3 +48,9 @@ There is no in build navigation in React Native, to install the navigation from 
 
 ## Install Expo Cli for StandAlone build
 `npm install -g exp`
+
+### To generate Android build of the project:
+`exp build:android`
+
+### To generate iOS build of the project:
+`exp build:ios`
