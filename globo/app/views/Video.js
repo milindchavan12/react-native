@@ -15,7 +15,7 @@ export class Video extends React.Component {
 
     componentDidMount(){
         return fetch(
-            'https://www.googleapis.com/youtube/v3/search?part=snippet&q=pluralsight&type=video&key=AIzaSyDDqSSA7lnk4yK7Oauy24CcquYkPa-OE6E')
+            'https://www.googleapis.com/youtube/v3/search?part=snippet&q=pluralsight&type=video&key=<your api key>')
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
