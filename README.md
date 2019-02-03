@@ -45,3 +45,6 @@ There are two types of data that control a component: props and state. props are
 There is no in build navigation in React Native, to install the navigation from npm:
 
 `npm install --save react-navigation@1.5.11`
+
+## Install Expo Cli for StandAlone build
+`npm install -g exp`
