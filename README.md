@@ -40,3 +40,8 @@ Most components can be customized when they are created, with different paramete
 
 ### State
 There are two types of data that control a component: props and state. props are set by the parent and they are fixed throughout the lifetime of a component. For data that is going to change, we have to use state.
+
+## Navigation
+There is no in build navigation in React Native, to install the navigation from npm:
+
+`npm install --save react-navigation@1.5.11`
